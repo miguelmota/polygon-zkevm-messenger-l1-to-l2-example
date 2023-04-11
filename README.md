@@ -160,7 +160,7 @@ greeting: hello world
 
 ### Send L2->L1 Message
 
-See [https://github.com/miguelmota/polygon-zkevm-messenger-l1-to-l2-example](https://github.com/miguelmota/polygon-zkevm-messenger-l1-to-l2-example)
+See [https://github.com/miguelmota/polygon-zkevm-messenger-l2-to-l1-example](https://github.com/miguelmota/polygon-zkevm-messenger-l2-to-l1-example)
 
 ## License
 
