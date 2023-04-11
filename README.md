@@ -72,7 +72,6 @@ Output
 ```sh
 L2Contract deployed to: 0x7aEF554acf5fBaCd2161027F24528f33fc7fCA95
 ```
-0x7aEF554acf5fBaCd2161027F24528f33fc7fCA95
 
 ### Send L1->L2 Message
 
