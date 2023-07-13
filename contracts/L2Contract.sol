@@ -17,6 +17,8 @@ contract L2Contract {
     }
 
     function onMessageReceived(address originAddress, uint32 originNetwork, bytes memory data) external payable {
+      // Make sure this function can only be called by the L2 bridge as "originAddess" can be passed an arbitrary value here.
+      require(msg.sender == l2Bridge);
       require(originAddress == l1Contract);
       require(originNetwork == 0);
       caller = originAddress;
